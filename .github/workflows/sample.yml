@@ -6,3 +6,7 @@ jobs:
     steps:
       - name: echo a string
         run: echo "Aaaaa "
+      - name: multi line 
+        run: |
+          node -v
+          npm -v
