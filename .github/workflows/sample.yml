@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: echo a string
-        run: echo "LAaaaa "
+        run: echo "aaaaa "
       - name: multi line 
         run: |
           node -v
