@@ -6,6 +6,9 @@ jobs:
     steps:
       - name: echo a string
         run: echo "aaaaa "
+  run-Shell-Command2:
+    runs-on: ubuntu-latest
+    steps:
       - name: multi line 
         run: |
           node -v
